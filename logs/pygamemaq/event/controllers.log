@@ -1,0 +1,8 @@
+11:30:13.734 :: INFO :: event_controller -> __init__() :: EventController created
+11:30:13.734 :: INFO :: event_controller -> add_event() :: BaseEvent([12]) with exit() added to EventController
+11:30:13.735 :: INFO :: event_controller -> __init__() :: RenderController created
+11:30:13.735 :: INFO :: event_controller -> __init__() :: EventController created
+11:30:13.737 :: INFO :: event_controller -> add_event() :: RenderEvent([25]) with draw() added to RenderController
+11:30:13.740 :: INFO :: event_controller -> add_event() :: BaseEvent([26]) with update() added to EventController
+11:30:13.741 :: INFO :: event_controller -> add_event() :: KeyPressedEvent([3, 2]) with move() added to EventController
+11:30:13.742 :: INFO :: event_controller -> add_event() :: ButtonEvent([2]) with change() added to EventController
