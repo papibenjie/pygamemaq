@@ -1,5 +1,4 @@
 
-import logging
 import pygame
 import sys
 
@@ -12,14 +11,15 @@ class BaseGame(object):
 
         self.event_controllers = {}
         self.quit = False
+
         pygame.init()
         self.screen = pygame.display.set_mode((width, height), flags)
 
-        logger.debug("{0} created".format(str(self)))
+        logger.info("{0} created".format(str(self)))
 
     def loop(self):
 
-        logger.info("Main loop starting, event_controllers={0}".format(str(list(self.event_controllers.keys()))))
+        logger.info("Main loop starting, event_controllers={0}".format(str(self.event_controllers.keys())))
         while self.quit == False:
             for event in pygame.event.get():
                 for controller in self.event_controllers.values():

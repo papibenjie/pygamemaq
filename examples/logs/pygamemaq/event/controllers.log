@@ -1,0 +1,6 @@
+19:07:51.682 :: INFO :: event_controller -> __init__() :: EventController created
+19:07:51.683 :: DEBUG :: event_controller -> add_event() :: BaseEvent([12]) with exit() added to EventController
+19:07:51.683 :: INFO :: event_controller -> __init__() :: RenderController created
+19:07:51.684 :: INFO :: event_controller -> __init__() :: EventController created
+19:07:51.685 :: DEBUG :: event_controller -> add_event() :: RenderEvent([25]) with draw() added to RenderController
+19:07:51.686 :: DEBUG :: event_controller -> add_event() :: UpdateEvent([26]) with update() added to EventController

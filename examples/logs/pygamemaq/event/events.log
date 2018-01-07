@@ -1,0 +1,6 @@
+19:07:51.682 :: INFO :: base_event -> __init__() :: [12] created
+19:07:51.683 :: INFO :: wrapped_event -> __init__() :: WrappedEvent: (BaseEvent([12]) --> exit()) created
+19:07:51.684 :: INFO :: base_event -> __init__() :: [25] created
+19:07:51.684 :: INFO :: wrapped_event -> __init__() :: WrappedEvent: (RenderEvent([25]) --> draw()) created
+19:07:51.685 :: INFO :: base_event -> __init__() :: [26] created
+19:07:51.685 :: INFO :: wrapped_event -> __init__() :: WrappedEvent: (UpdateEvent([26]) --> update()) created

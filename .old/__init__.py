@@ -39,5 +39,7 @@ out_handler = logging.StreamHandler()
 out_handler.setFormatter(formatter)
 mainLogger.addHandler(out_handler)
 
+eventLogger.setLevel(logging.INFO)
+
 del logging
 del os
