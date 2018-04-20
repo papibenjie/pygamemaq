@@ -1,9 +1,10 @@
 import pygame
 import sys
 
-from .simple_game import SimpleGame
-from ..event import BaseEvent, EventController, RenderController
-from ..utils import variables
+from pygamemaq.game import SimpleGame
+from pygamemaq.event import BaseEvent
+from pygamemaq.event.controllers import EventController, RenderController
+from pygamemaq.utils import variables
 
 
 class CompleteGame(SimpleGame):

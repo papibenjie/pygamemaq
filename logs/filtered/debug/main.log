@@ -1,0 +1,7 @@
+[36m[45m[1mtime     ::        level :: name                           ->       function :: message                                                                   [error location][0m
+19:51:30 :: [37m[1m   DEBUG(10)[0m[0m :: [34m[1mpygamemaq.event               [0m ->     __init__() :: BaseEvent([12]) created                                                   [37m[[1mbase_event.py:10][0m
+19:51:30 :: [37m[1m   DEBUG(10)[0m[0m :: [34m[1mpygamemaq.event               [0m ->     __init__() :: WrappedEvent: (BaseEvent([12]) --> exit()) created                        [37m[[1mwrapped_event.py:10][0m
+19:51:30 :: [37m[1m   DEBUG(10)[0m[0m :: [34m[1mpygamemaq.event               [0m ->     __init__() :: BaseEvent([25]) created                                                   [37m[[1mbase_event.py:10][0m
+19:51:30 :: [37m[1m   DEBUG(10)[0m[0m :: [34m[1mpygamemaq.event               [0m ->     __init__() :: WrappedEvent: (RenderEvent([25]) --> draw()) created                      [37m[[1mwrapped_event.py:10][0m
+19:51:30 :: [37m[1m   DEBUG(10)[0m[0m :: [34m[1mpygamemaq.event               [0m ->     __init__() :: BaseEvent([26]) created                                                   [37m[[1mbase_event.py:10][0m
+19:51:30 :: [37m[1m   DEBUG(10)[0m[0m :: [34m[1mpygamemaq.event               [0m ->     __init__() :: WrappedEvent: (UpdateEvent([26]) --> update()) created                    [37m[[1mwrapped_event.py:10][0m

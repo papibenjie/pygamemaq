@@ -4,3 +4,4 @@ del logging
 
 from .variables import *
 from .vector import *
+from .loggingmaq import *

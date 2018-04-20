@@ -1,3 +1,0 @@
-19:07:51.672 :: DEBUG :: base_game -> __init__() :: CompleteGame created
-19:07:51.686 :: INFO :: base_game -> loop() :: Main loop starting, event_controllers=['main', 'render', 'update']
-19:07:58.681 :: INFO :: base_game -> loop() :: Main loop finished

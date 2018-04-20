@@ -1,0 +1,6 @@
+19:51:30 ::     INFO(20) :: pygamemaq.event.controllers    ->     __init__() :: EventController created                                                   [event_controller.py:12][0m
+19:51:30 ::     INFO(20) :: pygamemaq.event.controllers    ->    add_event() :: BaseEvent([12]) with exit() added to EventController                      [event_controller.py:17][0m
+19:51:30 ::     INFO(20) :: pygamemaq.event.controllers    ->     __init__() :: RenderController created                                                  [event_controller.py:12][0m
+19:51:30 ::     INFO(20) :: pygamemaq.event.controllers    ->     __init__() :: EventController created                                                   [event_controller.py:12][0m
+19:51:30 ::     INFO(20) :: pygamemaq.event.controllers    ->    add_event() :: RenderEvent([25]) with draw() added to RenderController                   [event_controller.py:17][0m
+19:51:30 ::     INFO(20) :: pygamemaq.event.controllers    ->    add_event() :: UpdateEvent([26]) with update() added to EventController                  [event_controller.py:17][0m

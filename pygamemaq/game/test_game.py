@@ -1,5 +1,7 @@
-from .complete_game import CompleteGame
-from ..event import RenderEvent, UpdateEvent
+import pygamemaq
+
+from pygamemaq.game import CompleteGame
+from pygamemaq.event.events import RenderEvent, UpdateEvent
 
 
 class TestGame(CompleteGame):

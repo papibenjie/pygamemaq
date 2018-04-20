@@ -9,13 +9,12 @@ class EventController(object):
         self._wrapped_events = []
 
         self.activated = activated
-
         logger.info("{0} created".format(str(self)))
 
 
     def add_event(self, event, func, **kwargs):
         self._wrapped_events.append(WrappedEvent(event, func, **kwargs))
-        logger.debug("{0} with {1}() added to {2}".format(str(event), func.__name__, str(self)))
+        logger.info("{0} with {1}() added to {2}".format(str(event), func.__name__, str(self)))
 
     def run(self, event):
         if self.activated:

@@ -7,7 +7,7 @@ class WrappedEvent(object):
         self._func = func
         self._event = event
         self._kwargs = kwargs
-        logger.info("{0} created".format(str(self)))
+        logger.debug("{0} created".format(str(self)))
 
     def run(self, event):
         if self._event.test(event):

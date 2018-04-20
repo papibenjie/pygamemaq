@@ -2,9 +2,9 @@ import logging
 logger = logging.getLogger(__name__)
 del logging
 
-from .base_event import BaseEvent
+from .button_event import ButtonEvent
+from .key_pressed_event import KeyPressedEvent
 
-from .key_events.button_event import ButtonEvent
-from .game_events.render_event import RenderEvent
-from .game_events.update_event import UpdateEvent
-from .key_events.key_pressed_event import KeyPressedEvent
+
+from .render_event import RenderEvent
+from .update_event import UpdateEvent

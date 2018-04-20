@@ -1,0 +1,2 @@
+19:51:30 ::     INFO(20) :: pygamemaq.game                 ->     __init__() :: CircleGAGame created                                                      [base_game.py:18][0m
+19:51:30 ::     INFO(20) :: pygamemaq.game                 ->         loop() :: Main loop starting, event_controllers=['main', 'render', 'update']        [base_game.py:22][0m

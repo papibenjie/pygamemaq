@@ -1,8 +1,8 @@
 import pygame
 
-from .base_game import BaseGame
-from ..event import BaseEvent, EventController
-
+from pygamemaq.game import BaseGame
+from pygamemaq.event import BaseEvent
+from pygamemaq.event.controllers import EventController
 
 class SimpleGame(BaseGame):
     """docstring for SimpleGame."""

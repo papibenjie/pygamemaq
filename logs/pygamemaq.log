@@ -1,0 +1,17 @@
+19:51:30 ::    DEBUG(10) :: pygamemaq                      ->     <module>() :: [36m[45m[1mtime     ::        level :: name                           ->       function :: message                                                                   [error location][0m [__init__.py:58][0m
+19:51:30 ::     INFO(20) :: pygamemaq                      ->     <module>() :: [36m[45m[1mtime     ::        level :: name                           ->       function :: message                                                                   [error location][0m [__init__.py:58][0m
+19:51:30 ::  WARNING(30) :: pygamemaq                      ->     <module>() :: [36m[45m[1mtime     ::        level :: name                           ->       function :: message                                                                   [error location][0m [__init__.py:58][0m
+19:51:30 ::     INFO(20) :: pygamemaq.game                 ->     __init__() :: CircleGAGame created                                                      [base_game.py:18][0m
+19:51:30 ::     INFO(20) :: pygamemaq.event.controllers    ->     __init__() :: EventController created                                                   [event_controller.py:12][0m
+19:51:30 ::    DEBUG(10) :: pygamemaq.event                ->     __init__() :: BaseEvent([12]) created                                                   [base_event.py:10][0m
+19:51:30 ::    DEBUG(10) :: pygamemaq.event                ->     __init__() :: WrappedEvent: (BaseEvent([12]) --> exit()) created                        [wrapped_event.py:10][0m
+19:51:30 ::     INFO(20) :: pygamemaq.event.controllers    ->    add_event() :: BaseEvent([12]) with exit() added to EventController                      [event_controller.py:17][0m
+19:51:30 ::     INFO(20) :: pygamemaq.event.controllers    ->     __init__() :: RenderController created                                                  [event_controller.py:12][0m
+19:51:30 ::     INFO(20) :: pygamemaq.event.controllers    ->     __init__() :: EventController created                                                   [event_controller.py:12][0m
+19:51:30 ::    DEBUG(10) :: pygamemaq.event                ->     __init__() :: BaseEvent([25]) created                                                   [base_event.py:10][0m
+19:51:30 ::    DEBUG(10) :: pygamemaq.event                ->     __init__() :: WrappedEvent: (RenderEvent([25]) --> draw()) created                      [wrapped_event.py:10][0m
+19:51:30 ::     INFO(20) :: pygamemaq.event.controllers    ->    add_event() :: RenderEvent([25]) with draw() added to RenderController                   [event_controller.py:17][0m
+19:51:30 ::    DEBUG(10) :: pygamemaq.event                ->     __init__() :: BaseEvent([26]) created                                                   [base_event.py:10][0m
+19:51:30 ::    DEBUG(10) :: pygamemaq.event                ->     __init__() :: WrappedEvent: (UpdateEvent([26]) --> update()) created                    [wrapped_event.py:10][0m
+19:51:30 ::     INFO(20) :: pygamemaq.event.controllers    ->    add_event() :: UpdateEvent([26]) with update() added to EventController                  [event_controller.py:17][0m
+19:51:30 ::     INFO(20) :: pygamemaq.game                 ->         loop() :: Main loop starting, event_controllers=['main', 'render', 'update']        [base_game.py:22][0m

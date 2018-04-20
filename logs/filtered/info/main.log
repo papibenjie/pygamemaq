@@ -1,0 +1,9 @@
+[36m[45m[1mtime     ::        level :: name                           ->       function :: message                                                                   [error location][0m
+19:51:30 :: [32m[1m    INFO(20)[0m[0m :: [34m[1mpygamemaq.game                [0m ->     __init__() :: CircleGAGame created                                                      [32m[[1mbase_game.py:18][0m
+19:51:30 :: [32m[1m    INFO(20)[0m[0m :: [34m[1mpygamemaq.event.controllers   [0m ->     __init__() :: EventController created                                                   [32m[[1mevent_controller.py:12][0m
+19:51:30 :: [32m[1m    INFO(20)[0m[0m :: [34m[1mpygamemaq.event.controllers   [0m ->    add_event() :: BaseEvent([12]) with exit() added to EventController                      [32m[[1mevent_controller.py:17][0m
+19:51:30 :: [32m[1m    INFO(20)[0m[0m :: [34m[1mpygamemaq.event.controllers   [0m ->     __init__() :: RenderController created                                                  [32m[[1mevent_controller.py:12][0m
+19:51:30 :: [32m[1m    INFO(20)[0m[0m :: [34m[1mpygamemaq.event.controllers   [0m ->     __init__() :: EventController created                                                   [32m[[1mevent_controller.py:12][0m
+19:51:30 :: [32m[1m    INFO(20)[0m[0m :: [34m[1mpygamemaq.event.controllers   [0m ->    add_event() :: RenderEvent([25]) with draw() added to RenderController                   [32m[[1mevent_controller.py:17][0m
+19:51:30 :: [32m[1m    INFO(20)[0m[0m :: [34m[1mpygamemaq.event.controllers   [0m ->    add_event() :: UpdateEvent([26]) with update() added to EventController                  [32m[[1mevent_controller.py:17][0m
+19:51:30 :: [32m[1m    INFO(20)[0m[0m :: [34m[1mpygamemaq.game                [0m ->         loop() :: Main loop starting, event_controllers=['main', 'render', 'update']        [32m[[1mbase_game.py:22][0m

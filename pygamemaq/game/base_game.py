@@ -15,7 +15,7 @@ class BaseGame(object):
         pygame.init()
         self.screen = pygame.display.set_mode((width, height), flags)
 
-        logger.debug("{0} created".format(str(self)))
+        logger.info("{0} created".format(str(self)))
 
     def loop(self):
 
